@@ -38,8 +38,6 @@ header a {
         font-family: Poppins;
         font-size: 40px;
         font-weight: 600;
-        line-height: 54px;
-        letter-spacing: 0.02em;
         text-align: left;
         color: #ffffff;
 
@@ -47,7 +45,6 @@ header a {
             font-family: Outfit;
             font-size: 40px;
             font-weight: 400;
-            line-height: 54px;
             letter-spacing: 0.02em;
             text-align: left;
             background: linear-gradient(90deg, #D738FF 0%, #DE781B 100%);
@@ -61,7 +58,6 @@ header a {
         font-family: Outfit;
         font-size: 22px;
         font-weight: 300;
-        line-height: 28px;
         letter-spacing: 0.02em;
         text-align: left;
         color: #FFFFFF;
@@ -80,6 +76,9 @@ header a {
             text-align: left;
             color: #FFFFFF;
             text-decoration: none;
+            @media (max-width:774px) {
+                font-size: 16px;
+            }
         }
     }
 }
@@ -93,7 +92,6 @@ header a {
         font-family: Poppins;
         font-size: 40px;
         font-weight: 700;
-        line-height: 50px;
         letter-spacing: 0em;
         text-align: center;
 
@@ -103,7 +101,6 @@ header a {
         font-family: Poppins;
         font-size: 20px;
         font-weight: 400;
-        line-height: 25px;
         letter-spacing: 0em;
         text-align: center;
         color: #E9E9E9;
@@ -113,16 +110,20 @@ header a {
         border: 0.96px solid #B0A7A7;
         padding: 20px 30px;
         transition: all 0.9s ease;
-        &:hover{
+
+        &:hover {
             background-color: #B0A7A7;
             cursor: pointer;
-            h4{
+
+            h4 {
                 color: #000;
             }
-            p{
+
+            p {
                 color: #1E2029;
             }
         }
+
         h4 {
             font-family: Poppins;
             font-size: 24px;
@@ -136,27 +137,31 @@ header a {
             font-family: Poppins;
             font-size: 17px;
             font-weight: 400;
-            line-height: 31px;
             letter-spacing: 0em;
             text-align: left;
             color: #FFFFFFAD;
         }
     }
-    button{
+
+    button {
         width: fit-content;
         border-radius: 1px;
         padding: 10px 30px;
-background: linear-gradient(93deg, #122B6F -31.51%, #E64676 44.83%, #FCDE26 126.7%), linear-gradient(94deg, #BCDE5B -33.44%, #4FD68D 46.71%, #28A7DE 100.88%);
-a{
-    text-decoration: none;
-    color: #FFF;
-text-align: center;
-font-family: Poppins;
-font-size: 29.722px;
-font-style: normal;
-font-weight: 600;
-line-height: normal;
-}
+        background: linear-gradient(93deg, #122B6F -31.51%, #E64676 44.83%, #FCDE26 126.7%), linear-gradient(94deg, #BCDE5B -33.44%, #4FD68D 46.71%, #28A7DE 100.88%);
+
+        a {
+            text-decoration: none;
+            color: #FFF;
+            text-align: center;
+            font-family: Poppins;
+            font-size: 29.722px;
+            font-style: normal;
+            font-weight: 600;
+            @media (max-width:774px) {
+                font-size: 16px;
+            }
+
+        }
     }
 }
 
@@ -179,6 +184,9 @@ line-height: normal;
         letter-spacing: 0em;
         text-align: center;
         color: #1E2029;
+        @media (max-width:774px) {
+            font-size: 26px;
+        }
     }
 
     p {
@@ -187,11 +195,13 @@ line-height: normal;
         font-family: DM Sans;
         font-size: 25px;
         font-weight: 500;
-        line-height: 24px;
         letter-spacing: 0em;
         text-align: center;
         color: #FFFFFF;
         background: linear-gradient(93.31deg, #122B6F -8.3%, #E64676 55.97%, #FCDE26 127.1%);
+        @media (max-width:774px) {
+            font-size: 18px;
+        }
     }
 
     button {
@@ -209,6 +219,9 @@ line-height: normal;
             letter-spacing: 0em;
             text-align: center;
             color: #1E2029;
+            @media (max-width:774px) {
+                font-size: 16px;
+            }
         }
     }
 }
@@ -248,6 +261,9 @@ line-height: normal;
         letter-spacing: 0em;
         text-align: left;
         color: #D9D9D9;
+        @media (max-width:774px) {
+            font-size: 20px;
+        }
     }
 
     button {
@@ -288,12 +304,17 @@ line-height: normal;
         font-family: Poppins;
         font-size: 25px;
         font-weight: 400;
-        line-height: 50px;
         letter-spacing: 0em;
         text-align: left;
-
+        @media (max-width:774px) {
+            font-size: 20px;
+        }
     }
-
+    .accordion-body{
+        @media (max-width:774px) {
+            font-size: 16px;
+        }
+    }
     .accordion-button:not(.collapsed) {
         color: #ffffff;
         background-color: #1E2029;
