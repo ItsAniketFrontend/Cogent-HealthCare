@@ -33,7 +33,7 @@ header a {
 .banner h1 {
   font-family: Poppins;
   font-size: 40px;
-  font-weight: 600;
+  font-weight: 500;
   text-align: left;
   color: #ffffff;
 }
@@ -50,7 +50,7 @@ header a {
 }
 .banner p {
   font-family: Outfit;
-  font-size: 22px;
+  font-size: 17px;
   font-weight: 300;
   letter-spacing: 0.02em;
   text-align: left;
@@ -62,9 +62,9 @@ header a {
 }
 .banner button a {
   font-family: DM Sans;
-  font-size: 27px;
-  font-weight: 500;
-  line-height: 36px;
+  font-size: 20px;
+  font-weight: 350;
+  line-height: 28px;
   letter-spacing: 0em;
   text-align: left;
   color: #FFFFFF;
@@ -210,6 +210,21 @@ header a {
   }
 }
 
+.result h2 {
+  color: #FFFFFF;
+  font-family: Poppins;
+  font-size: 40px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 50px;
+}
+.result h2 span {
+  background: linear-gradient(93deg, #122B6F -8.3%, #E64676 55.97%, #FCDE26 127.1%);
+  background-clip: text;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+
 .why h1 {
   background: linear-gradient(90deg, #D738FF 0%, #DE781B 100%);
   background-clip: text;
@@ -234,8 +249,8 @@ header a {
 }
 .why h6 {
   font-family: Poppins;
-  font-size: 25px;
-  font-weight: 400;
+  font-size: 18px;
+  font-weight: 300;
   line-height: 50px;
   letter-spacing: 0em;
   text-align: left;
@@ -260,6 +275,33 @@ header a {
   letter-spacing: 0em;
   text-align: center;
   color: #FFFFFF;
+}
+
+.top-health h2 {
+  background: linear-gradient(90deg, #D738FF 0%, #DE781B 100%);
+  background-clip: text;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  text-align: center;
+  font-family: Poppins;
+  font-size: 40px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 50px;
+  /* 125% */
+}
+.top-health p {
+  color: #E9E9E9;
+  text-align: center;
+  font-family: "DM Sans";
+  font-size: 20px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 32px;
+  /* 160% */
+}
+.top-health .white-box {
+  background-color: #fff;
 }
 
 .faq h1 {
